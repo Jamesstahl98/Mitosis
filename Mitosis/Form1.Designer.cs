@@ -35,6 +35,7 @@
             // MovementTimer
             // 
             MovementTimer.Enabled = true;
+            MovementTimer.Interval = 20;
             MovementTimer.Tick += TimerEvent;
             // 
             // Form1

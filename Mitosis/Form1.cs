@@ -72,8 +72,8 @@ namespace Mitosis
         private void CellClicked(Cell cell)
         {
             Cell oldCell = cell;
-            Cell newCell = new Cell(oldCell.Position, oldCell.Radius / 2);
-            oldCell.Radius = oldCell.Radius / 2;
+            Cell newCell = new Cell(oldCell.Position, oldCell.Radius / 1.8f);
+            oldCell.Radius = oldCell.Radius / 1.8f;
             cells.Add(newCell);
 
             oldCell.CellSplitMovement(true);

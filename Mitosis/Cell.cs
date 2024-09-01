@@ -6,10 +6,10 @@ namespace Mitosis
     internal class Cell
     {
         readonly Random rand = new Random();
-        private float maxSpeed = 5f;
-        private float minSpeed = -5f;
+        private float maxSpeed = 2f;
+        private float minSpeed = -2f;
         
-        private float cellSplitSpeed = 20f;
+        private float cellSplitSpeed = 17f;
         private int cellSplitCounter = 20;
         private bool positiveXCellSplit;
 
